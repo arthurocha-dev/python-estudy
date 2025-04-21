@@ -39,7 +39,7 @@ for x in range(1,quantidadedesProdutos+1):
       try:
        precoProduto = float(input(f"Preço do produto {x}: "))
        print("-------------------------------------")
-       produtos[nomeProduto] = precoProduto
+       
 
       except ValueError:                                            #Se o usuário digitar algo que não seja número
          print("Error ao digitar o preço! Digite apenas números")   #vai exibir esse erro

@@ -99,3 +99,36 @@ def lista_compras(cliente="Cliente", *items):
 
 
 lista_compras("arthue", "arroz", "biscoito", "água")     
+
+
+
+
+
+n_produto = input("Nome do produto: ")
+p_produto = float(input("Valor do produto"))
+
+
+
+
+
+valoProduto = float(input("Valor do produto: "))
+descontoProduto = float (input("Desconto a ser dado: "))
+
+def calcular_total(valorProduto, descontoProduto):
+     descontoP = valoProduto * (descontoProduto / 100)
+     print(f"O desconto de {descontoProduto}% aplicado sobre o valor de {valoProduto} é: {descontoP} ")
+     return descontoP
+
+
+
+calcular_total(valoProduto, descontoProduto)
+
+
+
+
+
+
+
+
+
+
